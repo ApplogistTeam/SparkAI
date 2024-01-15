@@ -1,0 +1,87 @@
+/* Ana Konteyner Stili */
+.oneshotContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Eklenen padding */
+}
+
+/* Üst Bölüm Stili */
+.oneshotTopSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Alt Bölüm Stili */
+.oneshotBottomSection {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Başlık Stili */
+.oneshotTitle {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 50px; /* Düzenlenen margin */
+    color: #007bff; /* Spark AI ana rengi */
+}
+
+/* Mobil Görünüm için Medya Sorgusu */
+@media only screen and (max-width: 800px) {
+    .oneshotTitle {
+        font-size: 3rem;
+        margin-top: 20px; /* Düzenlenen margin */
+    }
+}
+
+/* Soru Girişi Stili */
+.oneshotQuestionInput {
+    max-width: 800px;
+    width: 100%;
+    padding: 10px; /* Düzenlenen padding */
+    border: 1px solid #ddd; /* Eklenen kenarlık */
+    border-radius: 8px; /* Eklenen yuvarlak köşe */
+}
+
+/* Cevap Konteyneri Stili */
+.oneshotAnswerContainer {
+    max-width: 800px;
+    width: 100%;
+    padding: 10px; /* Düzenlenen padding */
+    border-radius: 8px; /* Eklenen yuvarlak köşe */
+    background-color: #f8f9fa; /* Eklenen arka plan rengi */
+}
+
+/* Analiz Paneli Stili */
+.oneshotAnalysisPanel {
+    width: 600px;
+    margin-left: 20px;
+    border-radius: 8px; /* Eklenen yuvarlak köşe */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Eklenen gölge */
+}
+
+/* Ayraç Stili */
+.oneshotSettingsSeparator {
+    margin-top: 15px;
+}
+
+/* Ayarlar Düğmesi Stili */
+.settingsButton {
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #007bff; /* Spark AI ana rengi */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

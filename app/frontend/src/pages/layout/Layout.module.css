@@ -1,0 +1,77 @@
+/* Ana Yapı */
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Header Yapısı */
+.header {
+    background-color: #007bff; /* Spark AI ana rengi */
+    color: #f2f2f2;
+    padding: 10px 0;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.headerTitleContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.headerLogo {
+    height: 40px; /* Logo yüksekliği */
+}
+
+.headerTitle {
+    margin-left: 12px;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+/* Navigasyon Menüsü */
+.headerNavList {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.headerNavPageLink {
+    color: #f2f2f2;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.headerNavPageLink:hover, .headerNavPageLinkActive {
+    opacity: 1;
+}
+
+/* Sağ Üst Kısım */
+.headerRightText {
+    font-weight: normal;
+    margin-left: 40px;
+}
+
+/* Logo Stilleri */
+.microsoftLogo, .githubLogo {
+    height: 23px;
+    margin: 0 10px;
+}
+
+/* Renkler ve Geçişler */
+.headerNavPageLink, .headerRightText {
+    opacity: 0.75;
+}
+
+.headerNavPageLink:hover, .headerNavPageLinkActive {
+    opacity: 1;
+}
